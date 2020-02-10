@@ -53,6 +53,10 @@ python test.py --dataroot ./path/to/data/combined  --name stgan --model temporal
 ```
 - The test results will be saved to a html file here: `./results/stgan/test_latest/index.html`.
 
+- Some examples of cloud removal with STGAN can be seen in the figure below.
+
+<img src="./results/STGAN.png" alt="WAMI_Positives" style="width: 300px;"/>
+
 ### You can cite our paper as :
 ```
 @article{sarukkai2019cloud,
