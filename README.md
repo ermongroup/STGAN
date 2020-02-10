@@ -1,6 +1,6 @@
 # STGAN in Pytorch
 
-This is a Pytorch implementation of the STGAN model from the paper "Cloud Removal in Satellite Images Using Spatiotemporal Generative Models," Sarukkai<sup>\*</sup>, Jain<sup>\*</sup>, Uzkent, and Ermon (https://arxiv.org/abs/1912.06838). This implementation was written by Vishnu Sarukkai (https://github.com/VSAnimator/) and Anirudh Jain. 
+This is a Pytorch implementation of the STGAN model from the paper "Cloud Removal in Satellite Images Using Spatiotemporal Generative Models," Sarukkai<sup>\*</sup>, Jain<sup>\*</sup>, Uzkent, and Ermon (https://arxiv.org/abs/1912.06838). The STGAN is accepted to IEEE WACV 2020.
 
 This implementation is built on a clone of the implementation of Pix2Pix from https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix. The readme also is based on the readme from the CycleGAN/pix2pix repo. That repo contains the code corresponding to the following two papers:
 
@@ -51,4 +51,15 @@ python train.py --dataroot ./path/to/data/combined  --name stgan --model tempora
 ```bash
 python test.py --dataroot ./path/to/data/combined  --name stgan --model temporal_branched_ir --netG unet_256_independent --input_nc 4
 ```
-- The test results will be saved to a html file here: `./results/stgan/test_latest/index.html`. 
+- The test results will be saved to a html file here: `./results/stgan/test_latest/index.html`.
+
+### You can cite our paper as :
+```
+@article{sarukkai2019cloud,
+  title={Cloud Removal in Satellite Images Using Spatiotemporal Generative Networks},
+  author={Sarukkai, Vishnu and Jain, Anirudh and Uzkent, Burak and Ermon, Stefano},
+  journal={arXiv preprint arXiv:1912.06838},
+  year={2019}
+}
+
+```
