@@ -21,7 +21,7 @@ Image-to-Image Translation with Conditional Adversarial Networks.<br>
 
 - Clone this repo:
 ```bash
-git clone https://github.com/VSAnimator/stgan
+git clone https://github.com/ermongroup/STGAN.git
 cd stgan
 ```
 
